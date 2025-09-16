@@ -59,6 +59,7 @@ nav ul li a {
     border-radius: 5px;
 }
 
+
 @media (max-width: 768px) {
     nav {
         display: none;
@@ -115,8 +116,8 @@ main {
 #main {
     max-width: 1200px;
     margin: 0 auto;
-    height: 400px;
-    width: 700px;
+    height: 350px;
+    width: 750px;
 }
 
 section {
@@ -140,6 +141,20 @@ section h3 {
 section p {
     margin-bottom: 20px;
     text-align: justify;
+}
+img{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-self: center;
+}
+#imagem {
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 footer {
